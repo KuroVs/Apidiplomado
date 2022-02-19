@@ -130,7 +130,7 @@ class APIModelBackEnd():
         self.Clase = Clase
         self.Fechas = Fechas
 
-    def _load_model(self, model_filename: str = 'modelRF.pkl'):
+    def _load_model(self, model_filename: str = 'modelRF1.pkl'):
         '''
         Clase para cargar el modelo. Es una forma exótica de correr joblib.load pero teniendo funcionalidad con la API.
         Este método seguramente no lo van a cambiar, y si lo cambian, cambian el valor por defecto del string
