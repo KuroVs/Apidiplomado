@@ -1,0 +1,1 @@
+web: wget https://mega.nz/file/MAhAhZpA#ICCk1thl_TZYkFnNbV70xGL1aHHcOgB2jF2lHfWuNvA && uvicorn api:app --host=0.0.0.0 --port=$PORT 
