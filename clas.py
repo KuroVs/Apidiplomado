@@ -96,7 +96,7 @@ class ModelOutput(PydanticBaseModel):
     '''
     Clase que define las salidas del modelo
     '''
-    precio: float = Field(description='Precio de referencia')
+    precio: int = Field(description='Precio de referencia')
 
     class Config:
         schema_extra = {
